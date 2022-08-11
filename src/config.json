@@ -1,0 +1,73 @@
+{
+  "dev": {
+    "route": {
+      "customer": {
+        "home": "/home",
+        "form": "/form",
+        "demande": "/demande",
+        "sign_in": "/signin",
+        "sign_up_auth": "/signup/auth/:id",
+        "sign_up_auth_without_id": "/signup/auth/",
+        "company_register": "/companyregister",
+        "user_sign_up": "/usersignup/:id",
+        "user_sign_up_without_id": "/usersignup/",
+        "dasbhoard": "/dashboard",
+        "account_activation": "/activation",
+        "command": "/command",
+        "calendar": "/calendar",
+        "contact": "/contact",
+        "who": "/whoarewe",
+        "super_admin": "/superadmindashboard"
+      },
+      "FILE_MS_ADDRESS": "http://localhost:1215/files",
+      "PATH_TO_FILE_MS": "http://localhost:1215/files?file_name=",
+      "GATEWAY_ADDRESS": "http://localhost:1245/graphql",
+      "WS_GATEWAY_ADDRESS": "ws://192.168.1.11:1245/graphql"
+    },
+    "map_token": "pk.eyJ1Ijoic29maWVuc2FobGkiLCJhIjoiY2tmMm5reGtxMDBudjJxcXMwcXZ0Zzl3MSJ9.Zlh9CU1KS75wNiHyzyUgwQ",
+    "map_geocoding_first_part_url": "https://api.mapbox.com/geocoding/v5/mapbox.places/",
+    "map_geocoding_second_part_url": "?types=place,address&access_token=",
+
+    "session_storage": {
+      "USER_INFO": "USER_INFO",
+      "TOKEN": "TOKEN",
+      "CLIENT": "CLIENT"
+    }
+  },
+
+  "prod": {
+    "route": {
+      "customer": {
+        "home": "/home",
+        "form": "/form",
+        "demande": "/demande",
+        "sign_in": "/signin",
+        "sign_up_auth": "/signup/auth/:id",
+        "sign_up_auth_without_id": "/signup/auth/",
+        "company_register": "/companyregister",
+        "user_sign_up": "/usersignup/:id",
+        "user_sign_up_without_id": "/usersignup/",
+        "dasbhoard": "/dashboard",
+        "account_activation": "/activation",
+        "command": "/command",
+        "calendar": "/calendar",
+        "contact": "/contact",
+        "who": "/whoarewe",
+        "super_admin": "/superadmindashboard"
+      },
+      "FILE_MS_ADDRESS": "https://files.tyjani.fr/files",
+      "PATH_TO_FILE_MS": "https://files.tyjani.fr/files?file_name=",
+      "GATEWAY_ADDRESS": "https://gateway.tyjani.fr/graphql",
+      "WS_GATEWAY_ADDRESS": "wss://gateway.tyjani.fr/graphql",
+
+      "map_token": "pk.eyJ1Ijoic29maWVuc2FobGkiLCJhIjoiY2tmMm5reGtxMDBudjJxcXMwcXZ0Zzl3MSJ9.Zlh9CU1KS75wNiHyzyUgwQ",
+      "map_geocoding_first_part_url": "https://api.mapbox.com/geocoding/v5/mapbox.places/",
+      "map_geocoding_second_part_url": "?types=place,address&access_token="
+    },
+    "session_storage": {
+      "USER_INFO": "USER_INFO",
+      "TOKEN": "TOKEN",
+      "CLIENT": "CLIENT"
+    }
+  }
+}
